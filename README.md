@@ -1,1 +1,74 @@
-# Taehyeon-Kim
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <title>My Portfolio</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm Taehyeon Kim</h1>
+      <p>Welcome to my portfolio website</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="content">
+      <h2>About Me</h2>
+      <p>I am a passionate and dedicated computer science enthusiast, eagerly aspiring to major in this field. Equipped with a solid foundation in programming languages such as Java, JavaScript, and C++, I am adept at designing and implementing efficient algorithms and data structures. Through various projects, I have honed my skills in web development, including HTML, CSS, and frameworks like React.js, demonstrating a keen eye for detail and a drive for innovative solutions. Eager to further my knowledge and contribute to the ever-evolving tech landscape, I am committed to continuous learning and growth within the field of computer science.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="content">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>Designed a sleek HTML website showcasing proficiency in front-end development, featuring an intuitive user interface, structured using HTML5 elements, and styled with CSS. Demonstrated expertise in creating engaging web interfaces using fundamental web technologies..</p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>Developed a dynamic web-based portfolio using HTML, CSS, and JavaScript, highlighting proficiency in front-end development and interactivity. Included dedicated sections for introduction, skills, and projects, enhancing user experience and responsiveness. Effectively presented skills and projects to potential employers and collaborators, showcasing a strong grasp of front-end technologies.
+      </div>
+      <!-- Add more projects as needed -->
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="content">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML/CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Python</li>
+        <li>Java</li>
+        <!-- Add more skills -->
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="content">
+      <h2>((765)-712-3417)</h2>
+      <p>Email: taehyeonkim_2027@depauw.edu</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/taehyeon-kim-632669293/?locale=en_US">LinkedIn Profile</a></p>
+      <p>GitHub: <a href="file:///C:/Users/hoyay/index.html#contact">GitHub Profile</a></p>
+    </div>
+  </section>
+</body>
+</html>
